@@ -1,0 +1,33 @@
+body {
+  border : 1px solid black;
+  margin : 20px;
+  background-color : lightblue;
+}
+
+div#Challenge {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+div#Problems {
+  color: white;
+  border: 10px solid currentcolor;
+  padding: 2px;
+  font-family: "copperlate", copperlate, fantasy;
+}
+
+div#Results {
+  color: red;
+  border: 10px solid currentcolor;
+  padding: 2px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+img {
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
