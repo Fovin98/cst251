@@ -1,0 +1,23 @@
+body {
+  background: #0D0208;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid #03A062 ;
+
+}
+
+header {
+  color : #00FF41;
+}
+
+section{
+  color: #00FF41;
+}
+
+nav {
+  color: #00FF41;
+}
+
+footer {
+  color: #00FF41;
+}
