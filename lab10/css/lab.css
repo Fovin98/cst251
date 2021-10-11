@@ -1,0 +1,45 @@
+body {
+  border : 1px solid black;
+  margin : 20px;
+  background-color : lightblue;
+}
+
+div {
+  margin: 20px;
+  padding: 30px;
+  border: 5px solid black;
+}
+div, body {
+  color: #FF7F50 /*coral color */;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+h1{
+  color :black;
+}
+h2{
+  color : blueviolet;
+  text-transform : capitalize;
+  letter-spacing: inherit;
+}
+div#Challenge {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+div#Problems {
+  color: white;
+  border: 10px solid currentcolor;
+  padding: 2px;
+
+}
+
+div#Results {
+  color: red;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+p {
+  color : black;
+
+}
