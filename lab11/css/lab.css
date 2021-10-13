@@ -1,0 +1,43 @@
+.body-text {
+margin-right: 150px;
+font-size: 18px;
+}
+
+div#Challenge {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+div#Problems {
+  color: white;
+  border: 10px solid currentcolor;
+  padding: 2px;
+
+}
+
+div#Results {
+  color: red;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+aside{
+  color: white;
+  font-style: italic;
+}
+.sidebar {
+height: 33%;
+width: 300px;
+position: fixed;
+top: 0;
+right: 0;
+padding-top: 40px;
+background-color: lightblue;
+}
+
+.sidebar div {
+padding: 8px;
+font-size: 24px;
+display: block;
+}
