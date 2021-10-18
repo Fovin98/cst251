@@ -1,0 +1,57 @@
+.body-text {
+margin-right: 150px;
+font-size: 18px;
+}
+p{
+  color: white;
+}
+
+div#Challenge {
+  color: blue;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+div#Problems {
+  color: white;
+  border: 10px solid currentcolor;
+  padding: 2px;
+
+}
+
+div#Results {
+  color: red;
+  border: 10px solid currentcolor;
+  padding: 2px;
+}
+
+div#images{
+  width: 150px;
+  height: 100px;
+}
+
+div{
+  width:30%;
+}
+
+div#floated{
+  float:right;
+}
+
+div#center-horz{
+  text-align: center;
+}
+
+div#center-img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#center-both{
+  position: relative;
+   top: 50%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -50px;
+
+}
