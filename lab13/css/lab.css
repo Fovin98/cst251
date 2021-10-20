@@ -1,0 +1,11 @@
+iframe#fake {
+    width: 800px;
+    hauteur : 500px ;
+    redimensionner : les deux ;
+    débordement caché;
+}
+
+#contents{
+  background-color:black;
+  color:green;
+}

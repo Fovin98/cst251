@@ -1,0 +1,87 @@
+#writing{
+  position: relative;
+  z-index: 10;
+}
+
+
+
+#wallpaper{
+  position: fixed;
+  top:0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+h2{
+  position: fixed;
+  top: 0;
+  left:0;
+  font-family: Gotham;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+#logo{
+  float: left;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+#middle{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  font-family: Gotham;
+  font-weight: 600;
+  color: #bf3491;
+  font-size: 1200%;
+  margin-left: 30%;
+  float: left;
+}
+
+p{
+  font-family: Gotham;
+  font-weight: 600;
+  color: #bf3491;
+  font-size: 200%;
+  line-height: 1em;
+}
+
+
+p.explain{
+  font-family: Gotham;
+  color: black;
+  font-size:50;
+  text-align: center;
+  line-height: 1em;
+}
+#bouton{
+  text-align: center;
+}
+button {
+  font-family: Gotham;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  background-color: Transparent;
+  border-radius: 20px;
+  color:black;
+  margin-left: auto;
+}
+
+#bottom{
+  text-align: center;
+}
+
+p1 {
+  font-family: Gotham;
+  color:black;
+  width:50px;
+}
