@@ -1,0 +1,91 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+#container{
+  background: #f4ebd3;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+nav {
+  width:100%;
+  background: transparent;
+  overflow: auto;
+}
+
+ul{
+  padding:0;
+  margin : 0 0 0 150px;
+  list-style:none;
+}
+
+li{
+  float:right;
+  font-family: "GT-America", sans-serif;
+  font-weight: bold;
+}
+
+.logo img{
+  position:absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+nav a{
+  right: 0;
+  width: 75px;
+  display:block;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 20px 0px;
+  text-decoration: none;
+  text-align: center;
+  color:black;
+}
+
+.title {
+  position: absolute;
+  top: 15%; left:20%;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+.title img{
+  width:200px;
+  height:250px;
+}
+
+.title h1{
+  font-family: "GT-America", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 20px;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left:30%;
+  text-align: left;
+  width:45%
+}
+
+.text p{
+  font-family: "GT-America", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}

@@ -1,0 +1,19 @@
+iframe#fake {
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
+}
+
+#contents{
+  background: #f4ebd3;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
