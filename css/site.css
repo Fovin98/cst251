@@ -1,23 +1,13 @@
-body {
-  background: #0D0208;
-  margin: auto;
-  padding: 20px;
-  border: 5px solid #03A062 ;
-
+body{
+  background: LemonChiffon;
+  padding:0;
+  margin:0;
 }
 
-header {
-  color : #00FF41;
+h1, h2, h3 {
+  color: DarkSlateBlue;
 }
 
-section{
-  color: #00FF41;
-}
-
-nav {
-  color: #00FF41;
-}
-
-footer {
-  color: #00FF41;
+img{
+  box-shadow: 3px 3px 15px red;
 }
